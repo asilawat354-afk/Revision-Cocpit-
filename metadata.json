@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Smart Revision Cockpit_354_1",
+  "description": "कर्म करो फल की चिंता मत करो, क्योंकि सही समय पर उसका फल अवश्य मिलेगा।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

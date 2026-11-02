@@ -1,0 +1,7 @@
+<resources>
+    <color name="amber_primary">#F59E0B</color>
+    <color name="amber_primary_dark">#D97706</color>
+    <color name="stone_background">#FAFAF9</color>
+    <color name="stone_surface">#FFFFFF</color>
+    <color name="stone_text">#1C1917</color>
+</resources>

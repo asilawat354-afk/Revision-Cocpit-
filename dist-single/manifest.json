@@ -1,0 +1,30 @@
+{
+  "short_name": "SmartRevision",
+  "name": "Remix Remix Smart Revision Cockpit",
+  "description": "कर्म करो फल की चिंता मत करो, क्योंकि सही समय पर उसका फल अवश्य मिलेगा।",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1c1917",
+  "theme_color": "#1c1917",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/"
+}

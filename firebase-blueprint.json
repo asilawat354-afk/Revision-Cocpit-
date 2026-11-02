@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "userRevisionData": {
+      "title": "UserRevisionData",
+      "description": "User revision lectures, configuration, and sync state",
+      "type": "object",
+      "properties": {
+        "lectures": {
+          "type": "array",
+          "description": "Array of lecture revision tracking items"
+        },
+        "config": {
+          "type": "object",
+          "description": "Cockpit configuration settings"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of last update"
+        }
+      },
+      "required": ["updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "userRevisionData",
+      "description": "User revision profile and study records"
+    }
+  }
+}
